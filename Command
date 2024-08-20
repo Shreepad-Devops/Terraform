@@ -1,0 +1,10 @@
+Welcome to the Terraform wiki!
+
+terraform init --> dowload 
+terraform plan
+terraform apply
+terraform destroy
+terraform destroy -target aws_instance.myec2 ((resourcetype.localresourcename))
+we can destroy by commenting the resouces ((/* line that need to comment*/)) 
+terraform refresh ((It will get refresh the state file details and not recomendded))
+terraform init -upgrade ((update version that in provided last time and that availble in the lock file))
