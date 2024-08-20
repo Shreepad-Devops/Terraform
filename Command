@@ -2,7 +2,7 @@ Welcome to the Terraform wiki!
 
 terraform init --> dowload 
 terraform plan
-terraform apply
+terraform apply (( terraform apply -auto-approve))
 terraform destroy
 terraform destroy -target aws_instance.myec2 ((resourcetype.localresourcename))
 we can destroy by commenting the resouces ((/* line that need to comment*/)) 
